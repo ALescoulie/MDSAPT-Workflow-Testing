@@ -16,3 +16,11 @@ system_settings:
   ncpus: 10
   memory: 12GB
   time: '24:00:00'
+opt_settings:
+  basis: 'scf/cc-pvdz'
+  settings:
+    reference: 'rhf'
+sapt_settings:
+  basis: 'scf/dz'
+  settings:
+    reference: 'rhf'

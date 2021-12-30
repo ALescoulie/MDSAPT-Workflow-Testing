@@ -11,17 +11,18 @@ trajectory_settings:
   start: 0
   stop: 5
   step: 1
-  pH: 7.0
 system_settings:
-  ncpus: 10
+  ncpus: 4
   memory: 12GB
   time: '24:00:00'
 opt_settings:
+  pH: 7
   basis: 'scf/cc-pvdz'
   settings:
     reference: 'rhf'
-  just_back_bone: false
+  save_psi4_output: true
 sapt_settings:
   basis: 'scf/dz'
   settings:
     reference: 'rhf'
+  save_psi4_output: true
